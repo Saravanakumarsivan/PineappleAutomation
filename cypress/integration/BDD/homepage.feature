@@ -7,4 +7,5 @@ Feature: As a user I need to validate Login function for Pineapple Agile board
     And I enter my password
     And I click on the  submit button
     Then I can see the Pineapple Agile board for the team sucessfully
-    
+
+  
