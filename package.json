@@ -1,0 +1,37 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "pineapple-cypress-FE",
+  "main": "index.js",
+  "scripts": {
+    "cypress:version": "cypress version",
+    "test": "cypress open",
+    "headTest": "cypress run --headed",
+    "chromeTest": "cypress run chrome",
+    "dashboardResults": "cypress run --record --key 1dcd6e11-c60f-47fa-9731-f6619e20374a"
+  },
+  "author": "Hemantha SN",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.9.1",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-xpath": "^1.4.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "xlsx": "^0.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shellagilehub/apple-cypress-e2e.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shellagilehub/apple-cypress-e2e/issues"
+  },
+  "homepage": "https://github.com/shellagilehub/apple-cypress-e2e#readme",
+  "keywords": []
+}

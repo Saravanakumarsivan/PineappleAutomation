@@ -1,0 +1,14 @@
+
+{
+  
+"testFiles": "**/*.feature",
+"viewportHeight": 1080,
+  "viewportWidth": 1480,
+  "defaultCommandTimeout":10000,
+
+  "env":
+  {
+    "url" :"https://theagilehub.atlassian.net/jira/software/c/projects/PIN/boards/314"
+
+  }
+}
