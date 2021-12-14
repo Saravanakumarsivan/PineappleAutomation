@@ -29,6 +29,13 @@ class selectorhomepage{
        
     }
    */
+   /*static  getinputtextjira(){
+
+        return  cy.get('button[type="button"]').find('span').contains('Only My Issues');
+       
+    }
+   */
+  
 
     } 
     export default selectorhomepage
